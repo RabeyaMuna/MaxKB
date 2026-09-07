@@ -244,7 +244,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 'db_table': 'application_chat_user_stats',
-                'indexes': [models.Index(fields=['application_id', 'chat_user_id'], name='application_applica_1652ba_idx')],
+                'indexes': [models.Index(fields=['application_id', 'chat_user_id'], name='application_applica_1652by_idx')],
             },
         ),
         migrations.RunPython(insert_default_data)
