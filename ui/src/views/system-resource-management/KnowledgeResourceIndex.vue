@@ -306,7 +306,7 @@ const ManagePermission = () => {
     permissionPrecise.value.hit_test()
   )
 }
-// sync generete edit export delete
+// sync generate edit export delete
 const MoreFilledPermission = () => {
   return (
     permissionPrecise.value.sync() ||
