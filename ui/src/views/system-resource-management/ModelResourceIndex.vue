@@ -296,7 +296,7 @@ const paginationConfig = reactive({
   total: 0,
 })
 
-// sync generete edit export delete
+// sync generate edit export delete
 const MoreFilledPermission = () => {
   return permissionPrecise.value.delete() || permissionPrecise.value.modify()
 }
