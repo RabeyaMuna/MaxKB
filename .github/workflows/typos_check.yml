@@ -1,10 +1,8 @@
 name: Typos Check
 on:
-  workflow_dispatch:
-  push:
-  pull_request:
-    types: [opened, synchronize, reopened]
 
+- push
+- workflow_dispatch
 jobs:
   run:
     name: Spell Check with Typos
